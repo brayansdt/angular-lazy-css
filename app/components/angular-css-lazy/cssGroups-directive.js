@@ -18,7 +18,6 @@ angular.module('lazyCss.module', [])
                      $compile(angular.element(html))(scope);
                      */
                     scope.styles = {};
-                    debugger;
                     $rootScope.$on('$routeChangeStart', function (e, next, current) {
 
                         console.log(next.$$route.cssGroup);
